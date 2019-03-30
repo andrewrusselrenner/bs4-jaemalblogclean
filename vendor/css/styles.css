@@ -6,6 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Assistant:300,400,700|Domine:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Muli|Ovo");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9518,18 +9519,18 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.blogcean {
+.blogclean {
   color: #56585b;
   font-family: "Lora", serif !important;
   font-size: 14px;
 }
 
-.blogcean .intro {
+.blogclean .intro {
   font-size: 16px;
   margin: 0 auto 30px;
 }
 
-.blogcean .intro h1 {
+.blogclean .intro h1 {
   font-size: 32px;
   margin-bottom: 15px;
   padding-top: 20px;
@@ -9538,44 +9539,44 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 20px;
 }
 
-.blogcean .intro p {
+.blogclean .intro p {
   color: #929292;
   font-size: 12px;
 }
 
-.blogcean .intro p .by {
+.blogclean .intro p .by {
   font-style: italic;
 }
 
-.blogcean .intro p .date {
+.blogclean .intro p .date {
   text-transform: uppercase;
   padding: 4px 0 4px 10px;
   margin-left: 10px;
   border-left: 1px solid #ddd;
 }
 
-.blogcean .intro p a {
+.blogclean .intro p a {
   color: #333;
   text-transform: uppercase;
   padding-left: 3px;
 }
 
-.blogcean .intro img {
+.blogclean .intro img {
   margin-top: 20px;
 }
 
-.blogcean .text p {
+.blogclean .text p {
   margin-bottom: 20px;
   line-height: 1.45;
 }
 
 @media (min-widh: 768px) {
-  .blogcean .text p {
+  .blogclean .text p {
     font-size: 16px;
   }
 }
 
-.blogcean .text h2 {
+.blogclean .text h2 {
   margin-top: 28px;
   margin-bottom: 20px;
   line-height: 1.45;
@@ -9585,20 +9586,224 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (min-width: 768px) {
-  .blogcean .text h2 {
+  .blogclean .text h2 {
     font-size: 20px;
   }
 }
 
-.blogcean .text figure {
+.blogclean .text figure {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.blogcean .text figure img {
+.blogclean .text figure img {
   margin-bottom: 12px;
   max-width: 100%;
+}
+
+.bukutamu .container {
+  width: 60%;
+  margin: 3% auto 10rem auto;
+  overflow: hidden;
+}
+
+.bukutamu p {
+  line-height: 150%;
+}
+
+.bukutamu a {
+  text-decoration: none;
+  color: #CDDBE2;
+  background: #A51C3C;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.bukutamu a:hover {
+  background: #ED1B51;
+  color: #fff;
+}
+
+.bukutamu h1 {
+  font-family: "Lora", serif;
+}
+
+.bukutamu .left-block,
+.bukutamu .right-block {
+  float: left;
+  padding: 1.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bukutamu .left-block {
+  width: 70%;
+}
+
+.bukutamu .right-block {
+  width: 30%;
+}
+
+.bukutamu .entry {
+  background: #5EC6C8;
+  padding: .5rem 1.5rem;
+  -webkit-transition: background .25s ease;
+  transition: background .25s ease;
+}
+
+.bukutamu .entry:nth-child(even) {
+  background: #3CBEB9;
+}
+
+.bukutamu .entry-info {
+  font-style: italic;
+  font-size: .75rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bukutamu .entry-info p {
+  margin-bottom: .125rem;
+}
+
+.bukutamu .entry-info .author {
+  color: #A51C3C;
+  font-weight: bold;
+}
+
+.bukutamu .entry-text p {
+  margin-top: 0;
+}
+
+.bukutamu .guestbook-links {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.bukutamu .guestbook-links a {
+  padding: 1rem 4rem;
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+.bukutamu .links {
+  margin-top: 2em;
+}
+
+.bukutamu .links a {
+  text-align: center;
+  display: block;
+  padding: .5rem;
+  margin: .5rem 0;
+}
+
+.bukutamu .manage-entry {
+  overflow: hidden;
+  height: 100px;
+}
+
+.bukutamu .manage-entry .entry-left {
+  width: calc(80% - 2em);
+  float: left;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-right: 2em;
+}
+
+.bukutamu .manage-entry .entry-options {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 20%;
+  float: left;
+  border-left: solid 2px #CDDBE2;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.bukutamu .icon {
+  color: #000;
+  font-size: 1.25em;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 1.5em 0 0;
+}
+
+.bukutamu img.icon {
+  max-height: .75em;
+  margin-left: -.25rem;
+  margin-right: 0;
+}
+
+.bukutamu .checkmark {
+  display: inline-block;
+}
+
+.bukutamu .checkmark:after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 14px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.bukutamu .form-element {
+  width: 90%;
+  display: block;
+  margin: 1em 0;
+  padding: .5em;
+  border: none;
+  background: #5EC6C8;
+  color: #000;
+}
+
+.bukutamu .form-element::-webkit-input-placeholder {
+  color: #2BA395;
+}
+
+.bukutamu .form-element:-ms-input-placeholder {
+  color: #2BA395;
+}
+
+.bukutamu .form-element::-ms-input-placeholder {
+  color: #2BA395;
+}
+
+.bukutamu .form-element::placeholder {
+  color: #2BA395;
+}
+
+.bukutamu .form-element:focus {
+  outline-color: #ED1B51;
+}
+
+.bukutamu .form-element.short {
+  width: 30%;
+}
+
+.bukutamu .form-button {
+  padding: 1rem 4rem;
+  display: inline-block;
+  border: none;
+  margin-right: .5rem;
+  color: #CDDBE2;
+  background: #A51C3C;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.bukutamu .form-button:hover {
+  background: #ED1B51;
+  color: #fff;
 }
 
 * {
@@ -9635,7 +9840,7 @@ html body {
 }
 
 .sidebar {
-  border-right: 1px solid #f3f3f3;
+  border-right: 1px solid #d4d4d4;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,

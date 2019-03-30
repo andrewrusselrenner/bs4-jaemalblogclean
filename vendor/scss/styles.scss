@@ -1,5 +1,6 @@
 @import '_variables.scss';
 @import '_post.scss';
+@import '_bukutamu';
 
 * {
     // display: none;
@@ -37,7 +38,7 @@ html {
 }
 
 .sidebar {
-    border-right: 1px solid tcolors(light);
+    border-right: 1px solid darken(tcolors(light), 12%);
 }
 
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active
