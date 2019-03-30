@@ -8,18 +8,18 @@ $( '#sidebar .navbar-nav a' ).on( 'click', function () {
 });
 
 function load_rumah() {
-    $("#isi").load("hal/main.html");
+    $("#isi").load("/hal/main.html");
 }
 
 function load_tentang() {
-    $("#isi").load("hal/tentang/index.html");
+    $("#isi").load("/hal/tentang/index.html");
 }
 
 function load_bukutamu() {
-    $("#isi").load("hal/guestbook/index.html");
+    $("#isi").load("/hal/guestbook/index.html");
 }
 
 function load_portofolio() {
-    $("#isi").load("hal/portofolio/index.html");
+    $("#isi").load("/hal/portofolio/index.html");
 }
 
