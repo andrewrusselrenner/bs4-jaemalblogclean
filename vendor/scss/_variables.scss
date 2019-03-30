@@ -1,0 +1,62 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700|Domine:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+// Opsi
+//
+// Cara cepat modifikasi global styling dengan hanya enable disable fitur
+
+// Warna tema
+$theme-colors: (
+    primary: #56585b,
+    secondary: #929292,
+    whitep: #FBEAD4,
+    greenlo : #8B8970,
+    light: #f3f3f3,
+    primary-light: lighten(#56585b, 40%),
+    secondary-lighten: lighten(#929292, 10%),
+    header: #fff,
+    dark: #333,
+    info: #ccc,
+    success: #28a745,
+    warning: #ffc107,
+    danger: #dc3545
+);
+
+$enable-caret:              true;
+$enable-rounded:            false !default;
+$enable-shadows:            true !default;
+$enable-gradients:          false ;
+$enable-transitions:        true ;
+$enable-grid-classes:       true ;
+$enable-print-styles:       true ;
+
+// Untuk memudahkan pemanggilan warna
+@function tcolors($color-name) {
+    @return map-get($theme-colors, $color-name )
+}
+
+$warna-bg           : #fff;
+$warna-link         : #627967;
+$pencerah-warna-link: darken($warna-link, 22%);
+
+// kanan 0, kebawah 8px, blurnya 12px terus nambah shadow kebawah lagi 5px blurnya 6px
+$box-shadow         : 0 8px 12px rgba(0,0,0,0.2), 0 5px 6px rgba(0,0,0,0.3);
+
+// kasih shadow untuk navbar
+$box-shadow-navbar  : 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
+
+$padding            : 15px;
+$borders            : 15px;
+
+// Fonts
+$spacer             : 1.5rem;
+
+$regular: 200;
+$bold: 700;
+$light: 300;
+$headings : 400;
+
+$font-judul : "Lora", serif;
+$font-body: "Assistant", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
