@@ -10683,6 +10683,12 @@ html body {
   border-right: 1px solid #d4d4d4;
 }
 
+@media (max-width: 768px) {
+  .sidebar {
+    border-right: none;
+  }
+}
+
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
@@ -10745,5 +10751,28 @@ h3 {
   color: #f5ca93;
   -webkit-transition: color 300ms ease-out;
   transition: color 300ms ease-out;
+}
+
+.entry {
+  border: thin solid #d4d4d4;
+}
+
+.entry .tanggal {
+  color: #929292;
+}
+
+@media (max-width: 768px) {
+  .entry {
+    text-align: center;
+  }
+  .entry .img-fluid {
+    width: 60%;
+  }
+  .entry h1 {
+    text-align: center;
+  }
+  .entry p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

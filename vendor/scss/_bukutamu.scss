@@ -1,0 +1,23 @@
+.entry {
+    border: thin solid darken(tcolors(light), 12%);
+    
+    .tanggal {
+        color: tcolors(secondary);
+    }
+
+    @media (max-width: 768px) {
+        text-align: center;
+
+        .img-fluid {
+            width: 60%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
