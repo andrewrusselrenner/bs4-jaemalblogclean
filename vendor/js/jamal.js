@@ -19,7 +19,7 @@ function load_bukutamu() {
     $("#isi").load("/hal/guestbook/index.html");
 }
 
+
 function load_portofolio() {
     $("#isi").load("/hal/portofolio/index.html");
 }
-
