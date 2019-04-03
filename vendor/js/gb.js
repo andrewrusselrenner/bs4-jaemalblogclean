@@ -1,7 +1,7 @@
 var app = new function() {
     this.el = document.getElementById('entryPost');
 
-    this.avapic = ['/assets/img/1.jpg', '/assets/img/1.jpg', '/assets/img/1.jpg'];
+    this.avapic = ['assets/img/1.jpg', 'assets/img/1.jpg', 'assets/img/1.jpg'];
     this.penulis = ['Yudhi', 'Rivanka', 'Tama'];
     this.tanggal = ['Sabtu, 30 Maret 2018 1:43 PM', 'Sabtu, 30 Maret 2018 10:23 AM', 'Sabtu, 30 Maret 2018 3:41 PM'];
     this.entext = ['Anjay anjay apaan pos nya gak guna njir.', 'Yo wassup, blog lo aneh cuyy dasar lo gila.', 'Gak ngerti aku apa yang diomonginnya. Bahasa apa itu cok, alien? wkwkwkwkwkwk'];
@@ -45,7 +45,7 @@ var app = new function() {
     this.Add = function() {
         // Mendapatkan value/isinya (Get the value)
         elForm = document.getElementById('formgb');
-        var elAva = '/assets/img/1.jpg';
+        var elAva = 'assets/img/1.jpg';
         elNama = document.getElementById('nama').value;
         elEmail = document.getElementById('email').value;
         elPesan = document.getElementById('pesan').value;
