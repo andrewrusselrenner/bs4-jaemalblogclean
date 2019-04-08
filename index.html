@@ -14,15 +14,14 @@
 </head>
 <body onload="load_rumah()">
     <div class="container-fluid">
-        <div class="row pb-6">
-            <div class="col-md-12 align-content-center ml-auto text-center headerblog py-3" style="background-image: url(assets/img/bg-header2.jpg);background-position: bottom right;background-size: cover;">
+        <div class="row">
+            <div class="col-md-12 ml-auto text-center headerblog py-3" style="background-image: url(assets/img/bg-header2.jpg);background-position: bottom right;background-size: cover;">
                 <div class="headercontent">
                     <h1 class="text-bold display-2">Hi, My name is Kenneth.</h1>
                     <div class="col-md-4 my-2 mx-auto">
                         <h4 class="my-1 py-1 mx-auto">Welcome to my blog.</h4>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -51,50 +50,48 @@
     <hr style="width:80%;">
     <div class="container">
         <div class="row h-100">
-            <aside class="col-md-4 p-0 sticky-top sticky-offset sidebar bg-white" id="sidebar">
-                <nav class="navbar navbar-expand navbar-light d-flex flex-fill flex-row align-items-start py-2">
-                    <div class="collapse navbar-collapse align-items-start">
-                        <ul class="flex-fill flex-md-column flex-row navbar-nav justify-content-between">
+            <aside class="col-md-4 sticky-top sidebar bg-white" id="sidebar">
+                <nav class="navbar navbar-expand navbar-light py-2">
+                    <div class="navbar-collapse">
+                        <ul class="flex-fill flex-md-column navbar-nav justify-content-between">
                             <li class="nav-item show in active">
                                 <a href="#rumah" onclick="load_rumah()" class="nav-link px-3">
                                     <i class="fas fa-home"></i>
-                                    <span class="d-none d-md-inline px-2">Home</span>
+                                    <span class="d-md-inline px-2">Home</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#tentang" onclick="load_tentang()"class="nav-link px-3">
-                                    <i class="fas fa-user"></i><span class="d-none d-md-inline px-2"> Tentang</span>
+                                    <i class="fas fa-user"></i><span class="d-md-inline px-2"> Tentang</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#portofolio" onclick="load_portofolio()" class="nav-link px-3">
                                     <i class="fas fa-camera"></i>
-                                    <span class="d-none d-md-inline px-2">Portofolio</span>
+                                    <span class="d-md-inline px-2">Portofolio</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="http://soundcloud.com/akpt08" class="nav-link px-3" target="_blank">
                                     <i class="fas fa-podcast"></i>
-                                    <span class="d-none d-md-inline px-2">Podcast</span>
+                                    <span class="d-md-inline px-2">Podcast</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#bukutamu" onclick="load_bukutamu()" class="nav-link px-3">
                                     <i class="fas fa-book"></i>
-                                    <span class="d-none d-md-inline px-2">Buku Tamu</span>
+                                    <span class="d-md-inline px-2">Buku Tamu</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </aside>
-            <div class="col-md-8 col-xl-8 blogclean">
+            <div class="col-md-8 blogclean">
                 <div class="container-fluid">
                     <div class="row">
                         <!-- <div class="col-md-auto"> -->
-                            <div class="blogclean" id="isi">
-                                
-                            </div>
+                            <div id="isi"></div>
                         <!-- </div> -->
                     </div>
                 </div>
